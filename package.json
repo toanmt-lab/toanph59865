@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "server": "json-server --watch db.json --port 3000",
     "dev": "vite",
     "db": "npx json-server-auth db.json",
     "build": "tsc -b && vite build",
