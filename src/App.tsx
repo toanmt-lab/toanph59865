@@ -1,6 +1,9 @@
 import { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
-import Lab7 from "./pages/Lab7";
+import Header from "./components/Header";
+import Login from "./components/Login";
+
+
 function App() {
   return (
     <>
@@ -17,7 +20,7 @@ function App() {
             <Link to="/list" className="hover:text-gray-200">
               Danh sách
             </Link>
-            <Link to="/add" className="hover:text-gray-200">
+            <Link to="/AddPage" className="hover:text-gray-200">
               Thêm mới
             </Link>
           </div>
@@ -32,12 +35,11 @@ function App() {
           </div>
         </div>
       </nav>
-
-      {/* MAIN CONTENT */}
       <div className="max-w-6xl mx-auto mt-10 px-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Chào mừng đến với WEB2091</h1>
       </div>
-      <Lab7/>
+      <Header/>
+      <Login/>
       <Toaster />
     </>
   );
