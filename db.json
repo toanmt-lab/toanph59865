@@ -1,12 +1,10 @@
 {
-  "stories": [
+  "users": [
     {
-      "id": "1",
-      "title": "Avengers",
-      "director": "Marvel",
-      "year": 2020,
-      "poster": "https://upload.wikimedia.org/wikipedia/vi/e/e8/Avengers-Infinity_War-Official-Poster.jpg",
-      "description": "Biệt đội siêu anh hùng là một bộ phim siêu anh hùng của Mỹ công chiếu vào năm 2012 "
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456"
     }
   ]
 }
